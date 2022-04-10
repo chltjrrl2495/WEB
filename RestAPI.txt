@@ -1,0 +1,20 @@
+REST API
+웹의 통신규칙
+(http프로토콜을 http프로토콜답게 사용하자!)
+모범사례
+권고안
+어떤 데이터 타입으로 통신할지는 규정하지 않는다.
+[리소스]를 식별할때는 [URI]를 통해 식별한다
+[행위]를 할 때는 post,get,put,delete같은 http의 고유한 [메소드]를 이용한다.
+[결과]를 알려줄때는 [응답코드]를 통해 알려준다.
+
+리소스
+[method - http]
+Create - post
+Read - get
+Update - put/patch
+Delete - delete
+
+응답
+201 Created
+200 OK
